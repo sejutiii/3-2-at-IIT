@@ -20,6 +20,6 @@ public class ArrayOperationsTest {
         int[] array= {3,2,3,3};
         FileIO fileIO= new FileIO();
         MyMath myMath= new MyMath();
-        assertArrayEquals(array, arrayOperations.findPrimesInFile(fileIO, "C:\\Users\\User\\Desktop\\sejuti\\Semester-6\\3-2 IIT\\Testing\\unittesting\\src\\test\\resources\\grades_array.txt", myMath));
+        assertArrayEquals(array, arrayOperations.findPrimesInFile(fileIO, "/home/iit/Desktop/3-2-at-IIT/3-2 IIT/Testing/unittesting/src/test/resources/grades_array.txt", myMath));
     }
 }
